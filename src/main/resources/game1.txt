@@ -1,0 +1,6 @@
+Player: column 3, row 5
+AI: column 1, row 5
+Player: column 3, row 4
+AI: column 3, row 3
+Player: column 3, row 2
+AI: column 0, row 5

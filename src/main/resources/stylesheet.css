@@ -1,0 +1,63 @@
+/* stylesheet.css */
+.root {
+    -fx-background-image: url('/background.jpg');
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+.menu-box {
+    -fx-padding: 30px;
+    -fx-spacing: 20px; /* Spacing for VBox */
+    -fx-alignment: center;
+}
+
+.menu-title {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e81f18; /* Light color for contrast */
+}
+
+.menu-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #153ae3; /* Light color for contrast */
+}
+
+.combo-box {
+    -fx-pref-width: 200px; /* Reduced width */
+    -fx-pref-height: 30px; /* Preferred height for the ComboBox itself */
+}
+
+.combo-box .list-cell {
+    -fx-alignment: center;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 0px; /* Increased padding for a larger cell height */
+}
+
+.menu-button {
+    -fx-font-size: 18px; /* Larger font size for buttons */
+    -fx-background-color: #8a6d3b;
+    -fx-text-fill: white;
+    -fx-padding: 15px 30px; /* Larger padding for bigger button */
+    -fx-background-radius: 5;
+}
+
+.button {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-background-radius: 15; /* Rounded corners */
+    -fx-text-fill: white; /* White text */
+    -fx-font-weight: bold; /* Bold font */
+    -fx-font-size: 16px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding around the text */
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0); /* Shadow effect */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green when hovered */
+}
+
+.button:pressed {
+    -fx-background-color: #397d3b; /* Even darker green when pressed */
+}
